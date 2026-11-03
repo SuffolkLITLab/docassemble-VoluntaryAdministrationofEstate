@@ -583,7 +583,9 @@ question: |
   Have you sent a copy of this form to the Division of Medical Assistance
 subquestion: |
   NOTE: How does someone fill this out during form completion?
-yesno: certified_mail_copy_sent
+fields:
+  - no label: certified_mail_copy_sent
+    datatype: yesnoradio
 ---
 progress: 100
 mandatory: True
